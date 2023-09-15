@@ -55,6 +55,7 @@ let opts = minimist(process.argv, {
     messageFormat: 'o',
     timestampKey: 'a',
     translateTime: 't',
+    timezone: 'tz',
     ignore: 'i',
     include: 'I',
     hideObject: 'H',
@@ -64,7 +65,8 @@ let opts = minimist(process.argv, {
     messageKey: DEFAULT_VALUE,
     minimumLevel: DEFAULT_VALUE,
     levelKey: DEFAULT_VALUE,
-    timestampKey: DEFAULT_VALUE
+    timestampKey: DEFAULT_VALUE,
+    timezone: 'Etc/UTC'
   }
 })
 

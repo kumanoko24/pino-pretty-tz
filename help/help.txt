@@ -25,6 +25,7 @@
     -S, --singleLine            Print all non-error objects on a single line
     -a, --timestampKey [value]  Display the timestamp from the specified key (defaults to "time")
     -t, --translateTime         Display epoch timestamps as UTC ISO format or according to an optional format string (default ISO 8601)
+    -tz,--timezone [value]      Set the desired timezone (and is converted to correct time) for the display when `-t` is enabled (default `Etc/UTC`)
     -U, --useOnlyCustomProps    Only use custom levels and colors (if provided); don't fallback to default levels and colors (-U false)
     -v, --version               Output the version number
   

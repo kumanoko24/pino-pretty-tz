@@ -68,6 +68,7 @@ const pretty = require('./lib/pretty')
  * @property {boolean|string} [translateTime=true] When true, will translate a
  * JavaScript date integer into a human-readable string. If set to a string,
  * it must be a format string.
+ * @property {string} [timezone='Etc/UTC'] Defines timezone
  * @property {boolean} [useOnlyCustomProps=true] When true, only custom levels
  * and colors will be used if they have been provided.
  */
@@ -99,6 +100,7 @@ const defaultOptions = {
   singleLine: false,
   timestampKey: TIMESTAMP_KEY,
   translateTime: true,
+  timezone: 'Etc/UTC',
   useOnlyCustomProps: true
 }
 

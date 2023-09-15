@@ -1,12 +1,12 @@
 {
-  "name": "pino-pretty",
+  "name": "pino-pretty-tz",
   "version": "10.2.0",
   "description": "Prettifier for Pino log lines",
   "type": "commonjs",
   "main": "index.js",
   "types": "index.d.ts",
   "bin": {
-    "pino-pretty": "./bin.js"
+    "pino-pretty-tz": "./bin.js"
   },
   "scripts": {
     "ci": "standard && tap --coverage-report=lcovonly && npm run test-types",
@@ -18,7 +18,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/pinojs/pino-pretty.git"
+    "url": "git+ssh://git@github.com/kumanoko24/pino-pretty-tz.git"
   },
   "keywords": [
     "pino"
@@ -26,9 +26,9 @@
   "author": "James Sumners <james.sumners@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/pinojs/pino-pretty/issues"
+    "url": "https://github.com/kumanoko24/pino-pretty-tz/issues"
   },
-  "homepage": "https://github.com/pinojs/pino-pretty#readme",
+  "homepage": "https://github.com/kumanoko24/pino-pretty-tz#readme",
   "precommit": [
     "lint",
     "test"
@@ -53,7 +53,6 @@
     "@types/node": "^20.1.0",
     "fastbench": "^1.0.1",
     "pino": "^8.0.0",
-    "pre-commit": "^1.2.2",
     "rimraf": "^3.0.2",
     "snazzy": "^9.0.0",
     "standard": "^17.0.0",
